@@ -97,10 +97,12 @@ var namespaces_dup =
     ] ],
     [ "false_position", "df/dea/namespacefalse__position.html", null ],
     [ "fibonacci_sum", "d3/dc9/namespacefibonacci__sum.html", null ],
+    [ "geometric_dist", "dd/d8a/namespacegeometric__dist.html", null ],
     [ "geometry", "d5/d5f/namespacegeometry.html", "d5/d5f/namespacegeometry" ],
     [ "gram_schmidt", "d4/d0f/namespacegram__schmidt.html", null ],
     [ "graph", "df/dce/namespacegraph.html", "df/dce/namespacegraph" ],
     [ "hamming_distance", "d4/d1c/namespacehamming__distance.html", null ],
+    [ "hashing", "d6/d0c/namespacehashing.html", null ],
     [ "heavy_light_decomposition", "db/d6f/namespaceheavy__light__decomposition.html", null ],
     [ "horspool", "d5/d02/namespacehorspool.html", null ],
     [ "house_robber", "d2/de1/namespacehouse__robber.html", null ],
@@ -130,11 +132,13 @@ var namespaces_dup =
     [ "magic_sequence", "d8/d93/namespacemagic__sequence.html", null ],
     [ "manacher", "d8/dc6/namespacemanacher.html", null ],
     [ "math", "dd/d47/namespacemath.html", "dd/d47/namespacemath" ],
+    [ "MD5", "dd/d43/namespace_m_d5.html", null ],
     [ "median_search", "da/dd4/namespacemedian__search.html", null ],
     [ "merge_insertion", "de/d0a/namespacemerge__insertion.html", null ],
     [ "mincoins_topdown", "d5/db8/namespacemincoins__topdown.html", null ],
     [ "Minimum", "d4/d12/namespace_minimum.html", null ],
     [ "modular_division", "d1/d64/namespacemodular__division.html", null ],
+    [ "monte_carlo", "d0/da4/namespacemonte__carlo.html", null ],
     [ "morse", "d6/d8d/namespacemorse.html", null ],
     [ "n_bonacci", "de/d36/namespacen__bonacci.html", null ],
     [ "n_queens", "d3/da1/namespacen__queens.html", null ],
@@ -148,6 +152,8 @@ var namespaces_dup =
     [ "palindrome_partitioning", "d5/d89/namespacepalindrome__partitioning.html", null ],
     [ "pancake_sort", "df/d10/namespacepancake__sort.html", null ],
     [ "postfix_expression", "d4/de6/namespacepostfix__expression.html", null ],
+    [ "prefix_sum_array", "d7/d88/namespaceprefix__sum__array.html", null ],
+    [ "probability", "d4/ded/namespaceprobability.html", "d4/ded/namespaceprobability" ],
     [ "qr_algorithm", "d2/d3b/namespaceqr__algorithm.html", [
       [ "eigen_values", "d2/d3b/namespaceqr__algorithm.html#a28e2fa3e803abaea6c568dc45d69d8cc", null ],
       [ "operator<<", "d2/d3b/namespaceqr__algorithm.html#adfbdf47277c8cfee229b05b72f1f7834", null ],
@@ -166,6 +172,8 @@ var namespaces_dup =
     [ "runge_kutta", "d2/de7/namespacerunge__kutta.html", null ],
     [ "saddleback", "d0/dda/namespacesaddleback.html", null ],
     [ "search", "d9/dca/namespacesearch.html", "d9/dca/namespacesearch" ],
+    [ "selection_sort_recursive", "df/d4a/namespaceselection__sort__recursive.html", null ],
+    [ "SHA", "de/dd3/namespace_s_h_a.html", null ],
     [ "shortest_common_supersequence", "d3/deb/namespaceshortest__common__supersequence.html", null ],
     [ "sorting", "d5/d91/namespacesorting.html", [
       [ "cycle_sort", null, [
@@ -199,6 +207,10 @@ var namespaces_dup =
         [ "partition", "d1/daa/random__pivot__quick__sort_8cpp.html#a3d1c39e1ff42c04fb8ec0c0b9411cd3e", null ],
         [ "quickSortRP", "d1/daa/random__pivot__quick__sort_8cpp.html#a7d2e7465e7b5d54c2de6d5e9db1ea6a5", null ],
         [ "showArray", "d1/daa/random__pivot__quick__sort_8cpp.html#ac3281dc34a9cfd7beb332419b8a0aa10", null ]
+      ] ],
+      [ "selection_sort_recursive", null, [
+        [ "findMinIndex", "d4/d9f/selection__sort__recursive_8cpp.html#a5454eeb691725ccac0f59df1e133f834", null ],
+        [ "selectionSortRecursive", "d4/d9f/selection__sort__recursive_8cpp.html#ab6f7b33a070e376e1f4374e534435e89", null ]
       ] ],
       [ "strand", null, [
         [ "strand_sort", "dc/dd9/strand__sort_8cpp.html#a2bea2fe5dd38ed63610fdeaddf5785cd", null ]
@@ -259,6 +271,7 @@ var namespaces_dup =
     [ "wave_sort", "d9/d21/namespacewave__sort.html", null ],
     [ "wiggle_sort", "d0/d52/namespacewiggle__sort.html", null ],
     [ "wildcard_matching", "db/d03/namespacewildcard__matching.html", null ],
+    [ "windowed_median", "dd/d21/namespacewindowed__median.html", null ],
     [ "word_break", "d6/d53/namespaceword__break.html", null ],
     [ "XOR", "d7/d47/namespace_x_o_r.html", null ]
 ];

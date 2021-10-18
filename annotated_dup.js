@@ -9,7 +9,8 @@ var annotated_dup =
     [ "data_structures", "d5/d3c/namespacedata__structures.html", [
       [ "linked_list", null, [
         [ "link", "de/d9d/classdata__structures_1_1linked__list_1_1link.html", "de/d9d/classdata__structures_1_1linked__list_1_1link" ],
-        [ "list", "d1/def/classdata__structures_1_1linked__list_1_1list.html", "d1/def/classdata__structures_1_1linked__list_1_1list" ]
+        [ "list", "d1/def/classdata__structures_1_1linked__list_1_1list.html", "d1/def/classdata__structures_1_1linked__list_1_1list" ],
+        [ "Node", "d4/d0e/classdata__structures_1_1linked__list_1_1_node.html", "d4/d0e/classdata__structures_1_1linked__list_1_1_node" ]
       ] ],
       [ "list_array", null, [
         [ "list", "d5/dab/structdata__structures_1_1list__array_1_1list.html", "d5/dab/structdata__structures_1_1list__array_1_1list" ]
@@ -90,6 +91,14 @@ var annotated_dup =
         [ "Stack", "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html", "d5/d8a/classothers_1_1postfix__expression_1_1_stack" ]
       ] ]
     ] ],
+    [ "probability", "d4/ded/namespaceprobability.html", [
+      [ "geometric_dist", null, [
+        [ "geometric_distribution", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution" ]
+      ] ],
+      [ "windowed_median", null, [
+        [ "WindowedMedian", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median" ]
+      ] ]
+    ] ],
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", [
       [ "Entry", "da/dd1/structquadratic__probing_1_1_entry.html", "da/dd1/structquadratic__probing_1_1_entry" ]
     ] ],
@@ -121,11 +130,14 @@ var annotated_dup =
     [ "binary_search_tree", "d9/dde/classbinary__search__tree.html", "d9/dde/classbinary__search__tree" ],
     [ "Btree", "d9/d90/struct_btree.html", null ],
     [ "cll", "d5/d15/classcll.html", null ],
+    [ "Compare", "de/d4a/class_compare.html", "de/d4a/class_compare" ],
     [ "compare", "d1/db3/structcompare.html", null ],
     [ "Complex", "da/d5a/class_complex.html", "da/d5a/class_complex" ],
     [ "CycleCheck", "d3/dbb/class_cycle_check.html", "d3/dbb/class_cycle_check" ],
     [ "double_linked_list", "d9/dee/classdouble__linked__list.html", null ],
+    [ "EasterYearMonthDay", "d1/df6/class_easter_year_month_day.html", "d1/df6/class_easter_year_month_day" ],
     [ "Edge", "d7/d77/class_edge.html", "d7/d77/class_edge" ],
+    [ "FCFS", "dd/dca/class_f_c_f_s.html", "dd/dca/class_f_c_f_s" ],
     [ "FenwickTree", "dd/d91/class_fenwick_tree.html", "dd/d91/class_fenwick_tree" ],
     [ "Graph", "da/d9a/class_graph.html", "da/d9a/class_graph" ],
     [ "hash_chain", "dd/d1c/classhash__chain.html", "dd/d1c/classhash__chain" ],

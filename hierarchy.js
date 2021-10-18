@@ -7,6 +7,7 @@ var hierarchy =
     [ "binary_search_tree< T >::bst_node", "dd/db6/structbinary__search__tree_1_1bst__node.html", null ],
     [ "Btree", "d9/d90/struct_btree.html", null ],
     [ "cll", "d5/d15/classcll.html", null ],
+    [ "Compare< S, T, E >", "de/d4a/class_compare.html", null ],
     [ "compare", "d1/db3/structcompare.html", null ],
     [ "machine_learning::aystar_search::AyStarSearch< Puzzle >::comparison_operator", "d3/d2a/structmachine__learning_1_1aystar__search_1_1_ay_star_search_1_1comparison__operator.html", null ],
     [ "Complex", "da/d5a/class_complex.html", null ],
@@ -14,12 +15,15 @@ var hierarchy =
     [ "CycleCheck", "d3/dbb/class_cycle_check.html", null ],
     [ "machine_learning::neural_network::layers::DenseLayer", "dc/d93/classmachine__learning_1_1neural__network_1_1layers_1_1_dense_layer.html", null ],
     [ "double_linked_list", "d9/dee/classdouble__linked__list.html", null ],
+    [ "EasterYearMonthDay", "d1/df6/class_easter_year_month_day.html", null ],
     [ "Edge", "d7/d77/class_edge.html", null ],
     [ "machine_learning::aystar_search::EightPuzzle< N >", "dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html", null ],
     [ "double_hashing::Entry", "d9/dde/structdouble__hashing_1_1_entry.html", null ],
     [ "linear_probing::Entry", "db/d19/structlinear__probing_1_1_entry.html", null ],
     [ "quadratic_probing::Entry", "da/dd1/structquadratic__probing_1_1_entry.html", null ],
+    [ "FCFS< S, T, E >", "dd/dca/class_f_c_f_s.html", null ],
     [ "FenwickTree", "dd/d91/class_fenwick_tree.html", null ],
+    [ "probability::geometric_dist::geometric_distribution", "da/d19/classprobability_1_1geometric__dist_1_1geometric__distribution.html", null ],
     [ "Graph", "da/d9a/class_graph.html", null ],
     [ "graph::Graph< T >", "dc/d61/classgraph_1_1_graph.html", [
       [ "graph::RootedTree", "d0/d58/classgraph_1_1_rooted_tree.html", null ]
@@ -43,6 +47,7 @@ var hierarchy =
     [ "mst", "d1/d77/structmst.html", null ],
     [ "math::ncr_modulo_p::NCRModuloP", "d6/dc1/classmath_1_1ncr__modulo__p_1_1_n_c_r_modulo_p.html", null ],
     [ "machine_learning::neural_network::NeuralNetwork", "d4/df4/classmachine__learning_1_1neural__network_1_1_neural_network.html", null ],
+    [ "data_structures::linked_list::Node", "d4/d0e/classdata__structures_1_1linked__list_1_1_node.html", null ],
     [ "data_structures::Node", "d9/d49/structdata__structures_1_1_node.html", null ],
     [ "data_structures::tree_234::Node", "dd/d40/classdata__structures_1_1tree__234_1_1_node.html", null ],
     [ "data_structures::trie_using_hashmap::Trie::Node", "d5/d12/structdata__structures_1_1trie__using__hashmap_1_1_trie_1_1_node.html", null ],
@@ -93,5 +98,6 @@ var hierarchy =
       [ "std::is_unsigned< uint256_t >", "df/d99/structstd_1_1is__unsigned_3_01uint256__t_01_4.html", null ]
     ] ],
     [ "uint128_t", "db/d9a/classuint128__t.html", null ],
-    [ "uint256_t", "d1/d83/classuint256__t.html", null ]
+    [ "uint256_t", "d1/d83/classuint256__t.html", null ],
+    [ "probability::windowed_median::WindowedMedian", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html", null ]
 ];
