@@ -568,54 +568,51 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  373</span><span class="comment">                             ///&lt; (previous answered values do not count).</span></div>
 <div class="line"><span class="lineno">  374</span><span class="comment"></span> </div>
 <div class="line"><span class="lineno">  375</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\tMEMORY GAME\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  376</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/boolalpha.html">std::boolalpha</a>;</div>
-<div class="line"><span class="lineno">  377</span>    std::cout &lt;&lt; std::is_literal_type&lt;void&gt;::value;</div>
-<div class="line"><span class="lineno">  378</span> </div>
-<div class="line"><span class="lineno">  379</span>    <span class="keywordflow">do</span> {</div>
-<div class="line"><span class="lineno">  380</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n1. 4x2 (1)&quot;</span>;</div>
-<div class="line"><span class="lineno">  381</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n2. 5x2 (2)&quot;</span>;</div>
-<div class="line"><span class="lineno">  382</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n3. 7x2 (3)\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  383</span> </div>
-<div class="line"><span class="lineno">  384</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\nChoose table size: &quot;</span>;</div>
-<div class="line"><span class="lineno">  385</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; selection;</div>
-<div class="line"><span class="lineno">  386</span>    } <span class="keywordflow">while</span> ((selection &lt; 1 || selection &gt; 3) &amp;&amp;</div>
-<div class="line"><span class="lineno">  387</span>             (!games::memory_game::is_number(selection)));</div>
-<div class="line"><span class="lineno">  388</span> </div>
-<div class="line"><span class="lineno">  389</span>    <span class="keywordflow">switch</span> (selection) {</div>
-<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><span class="lineno">  391</span>            size = 8;</div>
-<div class="line"><span class="lineno">  392</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  393</span>        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><span class="lineno">  394</span>            size = 10;</div>
-<div class="line"><span class="lineno">  395</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  396</span>        <span class="keywordflow">case</span> 3:</div>
-<div class="line"><span class="lineno">  397</span>            size = 14;</div>
-<div class="line"><span class="lineno">  398</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  400</span>            size = 10;</div>
-<div class="line"><span class="lineno">  401</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  402</span>    }</div>
-<div class="line"><span class="lineno">  403</span> </div>
-<div class="line"><span class="lineno">  404</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;char&gt;</a> table(size);</div>
-<div class="line"><span class="lineno">  405</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;char&gt;</a> table_empty(size);</div>
+<div class="line"><span class="lineno">  376</span> </div>
+<div class="line"><span class="lineno">  377</span>    <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  378</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n1. 4x2 (1)&quot;</span>;</div>
+<div class="line"><span class="lineno">  379</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n2. 5x2 (2)&quot;</span>;</div>
+<div class="line"><span class="lineno">  380</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n3. 7x2 (3)\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  381</span> </div>
+<div class="line"><span class="lineno">  382</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\nChoose table size: &quot;</span>;</div>
+<div class="line"><span class="lineno">  383</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; selection;</div>
+<div class="line"><span class="lineno">  384</span>    } <span class="keywordflow">while</span> ((selection &lt; 1 || selection &gt; 3) &amp;&amp;</div>
+<div class="line"><span class="lineno">  385</span>             (!games::memory_game::is_number(selection)));</div>
+<div class="line"><span class="lineno">  386</span> </div>
+<div class="line"><span class="lineno">  387</span>    <span class="keywordflow">switch</span> (selection) {</div>
+<div class="line"><span class="lineno">  388</span>        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  389</span>            size = 8;</div>
+<div class="line"><span class="lineno">  390</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  391</span>        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  392</span>            size = 10;</div>
+<div class="line"><span class="lineno">  393</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  394</span>        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  395</span>            size = 14;</div>
+<div class="line"><span class="lineno">  396</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  397</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  398</span>            size = 10;</div>
+<div class="line"><span class="lineno">  399</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  400</span>    }</div>
+<div class="line"><span class="lineno">  401</span> </div>
+<div class="line"><span class="lineno">  402</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;char&gt;</a> table(size);</div>
+<div class="line"><span class="lineno">  403</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;char&gt;</a> table_empty(size);</div>
+<div class="line"><span class="lineno">  404</span> </div>
+<div class="line"><span class="lineno">  405</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line"><span class="lineno">  406</span> </div>
-<div class="line"><span class="lineno">  407</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  408</span> </div>
-<div class="line"><span class="lineno">  409</span>    <a class="code hl_function" href="#ad573c8ae66ab66156d03e5e81bbba214">games::memory_game::init</a>(&amp;table);</div>
-<div class="line"><span class="lineno">  410</span>    <a class="code hl_function" href="#a5714d97649c0edd57b4fb449799676a3">games::memory_game::ask_data</a>(table_empty, &amp;response, &amp;old_answer,</div>
-<div class="line"><span class="lineno">  411</span>                                 &amp;memory_count);</div>
-<div class="line"><span class="lineno">  412</span>    <a class="code hl_function" href="#a3ceeea62d8fa6c563e2c66359fd73413">games::memory_game::assign_results</a>(&amp;table_empty, &amp;table, &amp;response,</div>
-<div class="line"><span class="lineno">  413</span>                                       &amp;first_time, &amp;old_answer, &amp;memory_count);</div>
-<div class="line"><span class="lineno">  414</span> </div>
-<div class="line"><span class="lineno">  415</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  416</span>}</div>
-<div class="ttc" id="aboolalpha_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/boolalpha.html">std::boolalpha</a></div><div class="ttdeci">T boolalpha(T... args)</div></div>
+<div class="line"><span class="lineno">  407</span>    <a class="code hl_function" href="#ad573c8ae66ab66156d03e5e81bbba214">games::memory_game::init</a>(&amp;table);</div>
+<div class="line"><span class="lineno">  408</span>    <a class="code hl_function" href="#a5714d97649c0edd57b4fb449799676a3">games::memory_game::ask_data</a>(table_empty, &amp;response, &amp;old_answer,</div>
+<div class="line"><span class="lineno">  409</span>                                 &amp;memory_count);</div>
+<div class="line"><span class="lineno">  410</span>    <a class="code hl_function" href="#a3ceeea62d8fa6c563e2c66359fd73413">games::memory_game::assign_results</a>(&amp;table_empty, &amp;table, &amp;response,</div>
+<div class="line"><span class="lineno">  411</span>                                       &amp;first_time, &amp;old_answer, &amp;memory_count);</div>
+<div class="line"><span class="lineno">  412</span> </div>
+<div class="line"><span class="lineno">  413</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  414</span>}</div>
 <div class="ttc" id="asrand_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/numeric/random/srand.html">std::srand</a></div><div class="ttdeci">T srand(T... args)</div></div>
 <div class="ttc" id="atime_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/chrono/c/time.html">std::time</a></div><div class="ttdeci">T time(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d92/memory__game_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="211" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d92/memory__game_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="188" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
